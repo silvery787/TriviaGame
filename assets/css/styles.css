@@ -1,0 +1,47 @@
+.container{
+	text-align: center;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+td{
+	text-align: center;
+	padding-left: 10px;
+}
+h1 {
+	color: green;
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+li {
+	max-width: 400px;
+	padding: 10px;
+}
+li:hover {
+	border: 1px solid green;
+	background-color: #b3de53;
+}
+
+button {
+	font-size: 30px;
+	font-weight: bold;
+	color: green;
+	width: 400px;
+	text-align: center;
+	border: 2px solid green;
+	background-color: #b3de53;
+	border-radius: 8px;
+}
+
+#curr_question{
+	font-size: 30px;
+	font-weight: bold;
+}
+#final_text {
+	font-size: 30px;
+	font-weight: bold;
+}

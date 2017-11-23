@@ -216,11 +216,7 @@ $(document).ready( function(){
 	$("#answer_area").hide();
 	$("#final_area").hide();
 
-	$("#start").on("click", "button", function(){
-		game.start();
-	});
-
-	$("#restart").on("click", "button", function(){
+	$("#start, #restart").on("click", "button", function(){
 		game.start();
 	});
 
