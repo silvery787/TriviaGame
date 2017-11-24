@@ -1,18 +1,41 @@
+body {
+	background: url('../images/stars_bg2.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: #000;
+	color: #8fd0ee;
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
+}
 .container{
 	text-align: center;
+	max-width: 800px;
 }
-table {
+.tbl_result {
+	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
 }
+
 td{
-	text-align: center;
-	padding-left: 10px;
+	border: 1px solid #8fd0ee;
+	padding: 8px;
 }
 h1 {
-	color: green;
+	color: #b588e6;            
+	
+	font-size: 100px;
+    
+    background: -webkit-linear-gradient(top left,#a078cc,#a078cc, #6191bf, #3d82bf);
+    background: -moz-linear-gradient(top left,#a078cc,#c7ace2, #6191bf, #3d82bf);
+    background: linear-gradient(top left,#a078cc,#c7ace2, #6191bf, #3d82bf);
+    -webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+    color: #ee9ae5;
+
 	text-align: center;
+	font-family: 'Chonburi', cursive;
 }
 ul {
 	list-style: none;
@@ -20,28 +43,58 @@ ul {
 li {
 	max-width: 400px;
 	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid transparent;
 }
 li:hover {
-	border: 1px solid green;
-	background-color: #b3de53;
+	border: 1px solid #8fd0ee;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
-button {
-	font-size: 30px;
+.btn {
+	font-size: 50px;
 	font-weight: bold;
-	color: green;
+	color: #8fd0ee;
 	width: 400px;
 	text-align: center;
-	border: 2px solid green;
-	background-color: #b3de53;
+	border: 2px solid #8fd0ee;
 	border-radius: 8px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	cursor: pointer;
+
+	background: #fff; /* for old browsers */
+	background: rgba(255, 255, 255, 0.1);
+	letter-spacing: 1px;
+	cursor: pointer;
 }
 
 #curr_question{
-	font-size: 30px;
-	font-weight: bold;
+	font-size: 35px;
+	border-bottom: 1px solid #8fd0ee;
+	border-top: 1px solid #8fd0ee;
+	margin-bottom: 20px;
 }
 #final_text {
 	font-size: 30px;
 	font-weight: bold;
+	color : #b588e6;
 }
+#timer{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	color: #bd6894;	
+}
+#answer_area{
+	font-size: 30px;
+}
+.a_image {
+	width: 300px;
+	border-radius: 8px;
+	border: 1px solid #8fd0ee;
+}
+
