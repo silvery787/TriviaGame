@@ -196,8 +196,8 @@ var questionList = [
 	{ 
 		q: "From which areas of space can there be no escape?", 
 		a1: "White holes", 
-		a2: "Whormholes", 
-		a3: "Dubm holes", 
+		a2: "Wormholes", 
+		a3: "Dumb holes", 
 		a4: "Black holes", 
 		corr: 4, 
 		img : "black_hole.jpg"
